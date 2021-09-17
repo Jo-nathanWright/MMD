@@ -2,14 +2,9 @@
   <header>
     <Navbar />
   </header>
-  <main>
+  <main id="grad">
     <router-view />
   </main>
-  <footer>
-    <div class="bg-dark text-light text-center p-4">
-      Made with 💖 by CodeWorks
-    </div>
-  </footer>
 </template>
 
 <script>
@@ -27,4 +22,7 @@ export default {
 <style lang="scss">
 @import "./assets/scss/main.scss";
 
+#grad {
+  background-image: linear-gradient(#118593, #a712dd);
+}
 </style>
