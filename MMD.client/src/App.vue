@@ -2,7 +2,7 @@
   <header>
     <Navbar />
   </header>
-  <main id="grad">
+  <main id="grad" class="vw-100 vh-81">
     <router-view />
   </main>
 </template>
